@@ -188,7 +188,7 @@ Given the customer doesn't have connectivity
 
 ## Flowchart
 
-![Feed Loading Feature](feed_flowchart.png)
+![Feed Loading Feature](images/feed_flowchart.png)
 
 ## Model Specs
 
@@ -336,4 +336,4 @@ GET /image/{image-id}/comments
 
 ## App Architecture
 
-![](architecture.png)
+![](images/architecture.png)
