@@ -190,6 +190,11 @@ Given the customer doesn't have connectivity
 
 ![Feed Loading Feature](Images/feed_flowchart.png)
 
+
+## Initial App Architecture
+
+![](Images/initial_architecture.png.png)
+
 ## Model Specs
 
 ### Feed Image
