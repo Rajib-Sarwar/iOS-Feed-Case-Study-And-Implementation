@@ -193,7 +193,7 @@ Given the customer doesn't have connectivity
 
 ## Initial App Architecture
 
-![](Images/initial_architecture.png.png)
+![](Images/initial_architecture.png)
 
 ## Model Specs
 
