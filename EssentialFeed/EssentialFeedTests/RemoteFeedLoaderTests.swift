@@ -21,8 +21,8 @@ class HTTPClient {
 }
 
 class HTTPClientSpy: HTTPClient {
-    override func get(from : URL) {
-        
+    override func get(from url: URL) {
+        requestURL = url
     }
     
     var requestURL: URL?
