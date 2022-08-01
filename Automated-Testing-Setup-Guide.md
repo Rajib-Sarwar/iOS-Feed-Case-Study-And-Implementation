@@ -4,27 +4,27 @@ To create a test target when creating a **New Project** make sure to tick the �
 
 The test target and test folder will be named after the Product Name, suffixed by “Tests”. In this example, for the product name _EssentialFeed_ Xcode will create a test target named _EssentialFeedTests_.
 
-![](Images/test1.png)
+![](Images/test1)
 
 ## 2. Adding a new test target to an existing project
 
 To add a test target to an existing project you can navigate to _File -> New -> Target_ or select the project on the project Navigator and then click the _+_ button on the target lists pane:
 
-![](Images/test2.png)
+![](Images/test2)
 
 If you want to test an iOS target then select the iOS platform tab and choose the Unit Testing Bundle option.
 
-![](Images/test3.png)
+![](Images/test3)
 
 You can follow the same steps for other platforms you support (tvOS, macOS…).
 
 For example, for a macOS project you'd select the Unit Testing Bundle option under the macOS tab:
 
-![](Images/test4.png)
+![](Images/test4)
 
 Next, specify the _Product Name_ and select the _Target_ to be Tested:
 
-![](Images/test5.png)
+![](Images/test5)
 
 The naming convention is the Target to be Tested name (**EssentialFeed**) suffixed by “**Tests**”, e.g.: **EssentialFeedTests**. You can choose any name you want, but we recommend the convention so it’s easier for others to follow the project structure.
 
@@ -42,11 +42,11 @@ The default scheme is named after your project and will already include your tes
 
 You can manage the project’s schemes by clicking on the scheme drop-down list and clicking on _Manage Schemes_…
 
-![](Images/test6.png)
+![](Images/test6)
 
-![](Images/test7.png)
+![](Images/test7)
 
-![](Images/test8.png)
+![](Images/test8)
 
 ## Add/Remove a test target to a scheme
 
@@ -54,23 +54,23 @@ While editing a scheme, you can add or remove a test target for that particular 
 
 Mind that in case you’d like to remove a target from the Test scheme action, you will have to select the target first and then press the - button as shown in the image below.
 
-![](Images/test9.png)
+![](Images/test9)
 
 To add a test target to the scheme, press +, select the target(s) from the menu and press _Add_ as shown below.
 
-![](Images/test10.png)
+![](Images/test10)
 
 ## 4. Running a single test
 
 To run a single test, click on the gutter button next to the function declaration corresponding to the test you’d like to run.
 
-![](Images/test11.png)
+![](Images/test11)
 
 ## 5. Running all tests in a specific test case class
 
 To run all tests in a test case class, click on the gutter button next to the test case class declaration.
 
-![](Images/test12.png)
+![](Images/test12)
 
 ## 6. Running all the tests
 
@@ -80,13 +80,13 @@ To run all the tests within the targets in the selected scheme, you can use the 
 
 When the selected tests (regardless if the selection included all tests or just a single one) run successfully, Xcode will notify you by displaying a Test Succeeded HUD and turning the gutter buttons to a green checkmark. 
 
-![](Images/test13.png)
+![](Images/test13)
 
 ## Example of a failed test run
 
 When one or more of the tests you selected to run fails then Xcode will notify you by displaying a Test Failed HUD and turning the gutter buttons to a red x.
 
-![](Images/test14.png)
+![](Images/test14)
 
 ## Suggested workflow for running your tests
 
@@ -98,7 +98,7 @@ You can find and set your own keyboard shortcuts by opening the Key Bindings opt
 
 Preferences -> Key Bindings.
 
-![](Images/test15.png)
+![](Images/test15)
 
 ## 7. Running tests with xcodebuild (CLI)
 You also have the option to run tests through the command line using the xcodebuild command, using the following format.
