@@ -1,3 +1,11 @@
+# Automated Testing Setup Guide
+
+We need to understand how to configure your project to run automated tests.
+
+Writing clean, fast, and reliable automated tests is an essential skill to build high-quality apps and thrive in the iOS industry.
+
+The following guide shows how you can set up a test target to a new, or existing project. If you’ve never written tests before, getting the right setup is the first step.
+
 ## 1. Adding tests to a new project
 
 To create a test target when creating a **New Project** make sure to tick the “Include Unit Tests” checkbox (see image below) on the new project dialogue options. Xcode will automatically include and associate a test target and test folder for the given _Product Name_.
