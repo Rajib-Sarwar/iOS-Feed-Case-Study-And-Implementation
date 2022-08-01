@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A0AC88B2898373600B7B974 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AC88A2898373600B7B974 /* FeedItem.swift */; };
+		1A0AC88D289837CC00B7B974 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AC88C289837CC00B7B974 /* FeedLoader.swift */; };
 		1A982E8F2896E37D0036F130 /* Feed_Case_Study.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1A982E8E2896E37D0036F130 /* Feed_Case_Study.docc */; };
 		1A982E952896E37E0036F130 /* Feed_Case_Study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A982E8A2896E37D0036F130 /* Feed_Case_Study.framework */; };
 		1A982E9A2896E37E0036F130 /* Feed_Case_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A982E992896E37E0036F130 /* Feed_Case_StudyTests.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		1A0AC88A2898373600B7B974 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		1A0AC88C289837CC00B7B974 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		1A982E8A2896E37D0036F130 /* Feed_Case_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feed_Case_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A982E8D2896E37D0036F130 /* Feed_Case_Study.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feed_Case_Study.h; sourceTree = "<group>"; };
 		1A982E8E2896E37D0036F130 /* Feed_Case_Study.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Feed_Case_Study.docc; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				1A982E8D2896E37D0036F130 /* Feed_Case_Study.h */,
 				1A982E8E2896E37D0036F130 /* Feed_Case_Study.docc */,
 				1A0AC88A2898373600B7B974 /* FeedItem.swift */,
+				1A0AC88C289837CC00B7B974 /* FeedLoader.swift */,
 			);
 			path = "Feed-Case-Study";
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0AC88D289837CC00B7B974 /* FeedLoader.swift in Sources */,
 				1A0AC88B2898373600B7B974 /* FeedItem.swift in Sources */,
 				1A982E8F2896E37D0036F130 /* Feed_Case_Study.docc in Sources */,
 			);
