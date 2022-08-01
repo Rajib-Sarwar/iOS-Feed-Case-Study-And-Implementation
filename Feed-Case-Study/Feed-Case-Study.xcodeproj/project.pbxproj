@@ -54,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0AC88F2898396300B7B974 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				1A0AC88A2898373600B7B974 /* FeedItem.swift */,
+				1A0AC88C289837CC00B7B974 /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
+			sourceTree = "<group>";
+		};
 		1A982E802896E37D0036F130 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +86,7 @@
 			children = (
 				1A982E8D2896E37D0036F130 /* Feed_Case_Study.h */,
 				1A982E8E2896E37D0036F130 /* Feed_Case_Study.docc */,
-				1A0AC88A2898373600B7B974 /* FeedItem.swift */,
-				1A0AC88C289837CC00B7B974 /* FeedLoader.swift */,
+				1A0AC88F2898396300B7B974 /* Feed Feature */,
 			);
 			path = "Feed-Case-Study";
 			sourceTree = "<group>";
