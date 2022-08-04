@@ -16,6 +16,7 @@
 		1A0AC8B928984D2300B7B974 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AC8B828984D2300B7B974 /* RemoteFeedLoaderTests.swift */; };
 		1A0AC8BC2899F81800B7B974 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AC8BB2899F81800B7B974 /* RemoteFeedLoader.swift */; };
 		1ACF7750289C8D6A00E8A7E8 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF774F289C8D6A00E8A7E8 /* HTTPClient.swift */; };
+		1ACF7753289C8E1100E8A7E8 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF7752289C8E1100E8A7E8 /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		1A0AC8B828984D2300B7B974 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		1A0AC8BB2899F81800B7B974 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		1ACF774F289C8D6A00E8A7E8 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		1ACF7752289C8E1100E8A7E8 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				1ACF774F289C8D6A00E8A7E8 /* HTTPClient.swift */,
 				1A0AC8BB2899F81800B7B974 /* RemoteFeedLoader.swift */,
+				1ACF7752289C8E1100E8A7E8 /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				1A0AC8BC2899F81800B7B974 /* RemoteFeedLoader.swift in Sources */,
 				1ACF7750289C8D6A00E8A7E8 /* HTTPClient.swift in Sources */,
 				1A0AC8B728984A7200B7B974 /* FeedLoader.swift in Sources */,
+				1ACF7753289C8E1100E8A7E8 /* FeedItemsMapper.swift in Sources */,
 				1A0AC8B5289849F300B7B974 /* FeedItem.swift in Sources */,
 				1A0AC89F2898498F00B7B974 /* EssentialFeed.docc in Sources */,
 			);
