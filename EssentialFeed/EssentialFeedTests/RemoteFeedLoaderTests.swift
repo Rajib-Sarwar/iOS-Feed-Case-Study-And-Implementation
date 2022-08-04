@@ -73,7 +73,7 @@ class RemoteFeedLoaderTests: XCTestCase {
         var captureResults = [RemoteFeedLoader.Result]()
         sut.load{ captureResults.append($0) }
         
-        let emptyListJSON = Data("{\"items\":[]}".utf8)
+        let emptyListJSON = makeItemJSON([])
         client.complete(withStatusCode: 200, data: emptyListJSON)
         
         XCTAssertEqual(captureResults, [.success([])])
