@@ -9,7 +9,7 @@ import Foundation
 
 
 
-public final class RemoteFeedLoader: FeedLoader {
+public final class RemoteFeedLoader {
     
     private var url: URL!
     private var client: HTTPClient!
